@@ -110,6 +110,13 @@ node default {
   package { 'sublime-text': provider => 'brewcask' }
   package { 'slack': provider => 'brewcask' }
   package { 'skype': provider => 'brewcask' }
+  package { 'screenhero': provider => 'brewcask' }
+
+  # files (I have a Synology box at home)
+  package { 'synologyeiauthenticator': provider => 'brewcask' }
+  package { 'synology-photo-station-uploader': provider => 'brewcask' }
+  package { 'synology-cloud-station': provider => 'brewcask' }
+  package { 'synology-assistant': provider => 'brewcask' }
 
   # games
   package { 'scummvm': provider => 'brewcask' } # TODO: download games
