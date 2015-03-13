@@ -97,6 +97,9 @@ node default {
   package { 'firefox': provider => 'brewcask' }
   package { 'google-chrome': provider => 'brewcask' }
 
+  # office
+  package { 'libreoffice': provider => 'brewcask' }
+
   # utilities
   package { 'sizeup': provider => 'brewcask' }
   package { 'flux': provider => 'brewcask' }
@@ -104,6 +107,7 @@ node default {
   # entertainment
   package { 'utorrent': provider => 'brewcask' }
   package { 'vlc': provider => 'brewcask' }
+  package { 'chromecast': provider => 'brewcask' }
 
   # work
   package { 'tower': provider => 'brewcask' }
@@ -118,6 +122,9 @@ node default {
   package { 'synology-cloud-station': provider => 'brewcask' }
   package { 'synology-assistant': provider => 'brewcask' }
 
+  # creative (I have a Bamboo graphics tablet)
+  package { 'wacom-bamboo-tablet': provider => 'brewcask' }
+  
   # games
   package { 'scummvm': provider => 'brewcask' } # TODO: download games
 
