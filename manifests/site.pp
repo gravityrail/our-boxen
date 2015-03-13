@@ -93,4 +93,9 @@ node default {
   include brewcask
   package { 'firefox': provider => 'brewcask' }
   package { 'google-chrome': provider => 'brewcask' }
+  package { 'sublime-text': provider => 'brewcask' }
+  package { 'sizeup': provider => 'brewcask' }
+  package { 'tower': provider => 'brewcask' }
+
+  #include osx::safari::enable_developer_mode
 }
