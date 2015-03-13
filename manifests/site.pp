@@ -91,11 +91,25 @@ node default {
 
   # customisations by gravityrail
   include brewcask
+
+  # browsers
   package { 'firefox': provider => 'brewcask' }
   package { 'google-chrome': provider => 'brewcask' }
-  package { 'sublime-text': provider => 'brewcask' }
-  package { 'sizeup': provider => 'brewcask' }
-  package { 'tower': provider => 'brewcask' }
 
-  #include osx::safari::enable_developer_mode
+  # utilities
+  package { 'sizeup': provider => 'brewcask' }
+  package { 'flux': provider => 'brewcask' }
+
+  # entertainment
+  package { 'utorrent': provider => 'brewcask' }
+
+  # work
+  package { 'tower': provider => 'brewcask' }
+  package { 'sublime-text': provider => 'brewcask' }
+  package { 'slack': provider => 'brewcask' }
+  package { 'skype': provider => 'brewcask' }
+
+  # games
+  package { 'scummvm': provider => 'brewcask' } # TODO: download games
+
 }
