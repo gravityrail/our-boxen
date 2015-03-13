@@ -88,4 +88,9 @@ node default {
     ensure => link,
     target => $boxen::config::repodir
   }
+
+  # customisations by gravityrail
+  include brewcask
+  package { 'firefox': provider => 'brewcask' }
+  package { 'google-chrome': provider => 'brewcask' }
 }
