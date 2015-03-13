@@ -1,0 +1,12 @@
+
+boxen::personal::homebrew_packages:
+  - pstree
+  - htop
+  - iftop
+
+boxen::personal::osx_apps:
+  - google_chrome
+  - day_one
+
+boxen::personal::projects:
+  - mint-exporter
