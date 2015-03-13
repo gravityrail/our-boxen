@@ -91,6 +91,7 @@ node default {
 
   # customisations by gravityrail
   include brewcask
+  include heroku
 
   # browsers
   package { 'firefox': provider => 'brewcask' }
@@ -102,6 +103,7 @@ node default {
 
   # entertainment
   package { 'utorrent': provider => 'brewcask' }
+  package { 'vlc': provider => 'brewcask' }
 
   # work
   package { 'tower': provider => 'brewcask' }
