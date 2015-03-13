@@ -100,6 +100,9 @@ node default {
   # office
   package { 'libreoffice': provider => 'brewcask' }
 
+  # networking
+  package { 'viscosity': provider => 'brewcask' }
+
   # utilities
   package { 'sizeup': provider => 'brewcask' }
   package { 'flux': provider => 'brewcask' }
@@ -119,11 +122,13 @@ node default {
   # files (I have a Synology box at home)
   package { 'synologyeiauthenticator': provider => 'brewcask' }
   package { 'synology-photo-station-uploader': provider => 'brewcask' }
-  package { 'synology-cloud-station': provider => 'brewcask' }
+  # TODO: sudo
+  # package { 'synology-cloud-station': provider => 'brewcask' }
   package { 'synology-assistant': provider => 'brewcask' }
 
   # creative (I have a Bamboo graphics tablet)
-  package { 'wacom-bamboo-tablet': provider => 'brewcask' }
+  # TODO: sudo
+  # package { 'wacom-bamboo-tablet': provider => 'brewcask' }
   
   # games
   package { 'scummvm': provider => 'brewcask' } # TODO: download games
