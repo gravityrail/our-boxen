@@ -133,4 +133,11 @@ node default {
   # games
   package { 'scummvm': provider => 'brewcask' } # TODO: download games
 
+  # services
+  package { 'mysql': provider => 'homebrew' } 
+  package { 'postgresql': provider => 'homebrew' } 
+  # TODO: sudo
+  # package { 'virtualbox': provider => 'brewcask' } 
+  package { 'docker': provider => 'homebrew' } 
+
 }
