@@ -142,4 +142,7 @@ node default {
   # package { 'virtualbox': provider => 'brewcask' } 
   package { 'docker': provider => 'homebrew' } 
 
+  # wordpress
+  package { 'wp-cli': provider => 'homebrew' }
+  package { 'wpcli-completion': provider => 'homebrew' }
 }
