@@ -126,6 +126,7 @@ node default {
   # TODO: sudo
   # package { 'synology-cloud-station': provider => 'brewcask' }
   package { 'synology-assistant': provider => 'brewcask' }
+  package { 'transmit': provider => 'brewcask' }
 
   # creative (I have a Bamboo graphics tablet)
   # TODO: sudo
