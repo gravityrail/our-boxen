@@ -143,6 +143,6 @@ node default {
   package { 'docker': provider => 'homebrew' } 
 
   # wordpress
+  package { 'php56': provider => 'homebrew' }
   package { 'wp-cli': provider => 'homebrew' }
-  package { 'wpcli-completion': provider => 'homebrew' }
 }
