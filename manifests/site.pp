@@ -119,6 +119,7 @@ node default {
   package { 'slack': provider => 'brewcask' }
   package { 'skype': provider => 'brewcask' }
   package { 'screenhero': provider => 'brewcask' }
+  package { 'colloquy': provider => 'brewcask' }
 
   # files (I have a Synology box at home)
   package { 'synologyeiauthenticator': provider => 'brewcask' }
