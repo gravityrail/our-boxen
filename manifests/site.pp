@@ -107,6 +107,7 @@ node default {
   # utilities
   package { 'sizeup': provider => 'brewcask' }
   package { 'flux': provider => 'brewcask' }
+  package { 'airfoil': provider => 'brewcask' } 
 
   # entertainment
   package { 'utorrent': provider => 'brewcask' }
@@ -120,6 +121,7 @@ node default {
   package { 'skype': provider => 'brewcask' }
   package { 'screenhero': provider => 'brewcask' }
   package { 'colloquy': provider => 'brewcask' }
+  package { 'balsamiq-mockups': provider => 'brewcask' }
 
   # files (I have a Synology box at home)
   package { 'synologyeiauthenticator': provider => 'brewcask' }
