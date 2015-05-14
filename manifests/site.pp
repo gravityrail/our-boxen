@@ -115,7 +115,8 @@ node default {
   package { 'chromecast': provider => 'brewcask' }
 
   # work
-  package { 'tower': provider => 'brewcask' }
+  package { 'tower': provider => 'brewcask' }    # git client
+  package { 'versions': provider => 'brewcask' } # subversion client
   package { 'sublime-text': provider => 'brewcask' }
   package { 'slack': provider => 'brewcask' }
   package { 'skype': provider => 'brewcask' }
